@@ -9,12 +9,14 @@
     "alpinejs": "^2.2.5"
   },
   "devDependencies": {
+    "http-server": "^0.12.1",
     "parcel-bundler": "^1.12.4",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.2.0"
   },
   "scripts": {
     "dev": "parcel ./index.html",
-    "build": "parcel build ./index.html"
+    "build": "parcel build ./index.html",
+    "serve": "http-server ./dist"
   }
 }
